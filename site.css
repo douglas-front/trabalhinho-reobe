@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Silkscreen&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bar{
+    background: #000000;
+    padding: 0.3rem;
+}
+#log label{
+    color: #fff;
+    font-size: 2.8rem;
+    font-family: 'Silkscreen';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+}
+#sec{
+   
+    width: 100%;
+    height: calc(100vh - 67px);
+    background: no-repeat center/103% url("../img/7524549.jpg");
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+h2{
+    color: #fff;
+    font-family: 'Silkscreen';
+    font-size: 4rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 10%;   
+    animation: piscar 2s infinite alternate; 
+}
+
+.div-b{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    align-items: center;
+}
+
+#button{
+    padding: 20px 50px 20px 50px;
+    font-family: 'Silkscreen';
+    font-size: 1.3rem;
+   align-items: center;
+   color: #fff;
+   background-color: rgba(0, 0, 0, 0.651);
+   animation: piscar 1s infinite alternate;
+   border: none;
+   border-radius: 10px;
+   transition: all 1.5s;
+    
+}
+#button:hover{
+    background: #00b0ff;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+@keyframes piscar{
+    0%{
+        filter: drop-shadow(0 0 15px #00b0ff);
+        -webkit-filter: drop-shadow(0 0 15px #00b0ff);
+        -moz-filter: drop-shadow(0 0 15px #00b0ff);
+        -o-filter: drop-shadow(0 0 15px #00b0ff);
+        -ms-filter: drop-shadow(0 0 15px #00b0ff) ;
+    }
+    100%{
+    }
+}
+
